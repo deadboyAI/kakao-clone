@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Chat</title>
 </head>
+
 <body>
     <header>
         <div class="header__top">
@@ -20,7 +22,9 @@
             <div class="header__column">
                 <i class="fa fa-moon-o"></i>
                 <i class="fa fa-bluetooth-b"></i>
-                <span class="header__battery">66% <i class="fa fa-battery-full"></i></span>
+                <span class="header__battery">66%
+                    <i class="fa fa-battery-full"></i>
+                </span>
             </div>
         </div>
         <div class="header__bottom">
@@ -36,5 +40,39 @@
             </div>
         </div>
     </header>
+    <main class="chat">
+        <div class="date-divider">
+            <span class="date-divider__text">
+                Tuesday, March 20, 2018
+            </span>
+        </div>
+        <div class="chat__message-from-me">
+            <span class="chat__message-time">17:55</span>
+            <span class="chat__message-body">
+                Hello! This is a test message.
+            </span>
+        </div>
+        <div class="chat__message-to-me">
+            <img src="images/avatar.jpg" alt="" class="chat__message-avatar">
+            <div class="chat__message-center">
+                <h3 class="chat__message-username">Lynn</h3>
+                <span class="chat__message-body">
+                    And this is an answer
+                </span>
+            </div>
+            <span class="chat__message-time">19:30</span>
+        </div>
+    </main>
+    <div class="type-message">
+        <i class="fa fa-plus fa-2x"></i>
+        <div class="type-message__input">
+            <input type="text">
+            <i class="fa fa-smile-o"></i>
+            <span class="record-message">
+                <i class="fa fa-microphone"></i>
+            </span>
+        </div>
+    </div>
 </body>
+
 </html>
